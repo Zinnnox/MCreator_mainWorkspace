@@ -1,11 +1,126 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "SupermanFlight",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superman_flight",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/main/procedures/SupermanFlightProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StartFlyingOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_flying_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/main/procedures/StartFlyingOnKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StartFlyingOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_flying_on_key_released",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/main/procedures/StartFlyingOnKeyReleasedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StartFlying",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_flying",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/main/network/StartFlyingMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "PieTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pie_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/main/worldgen/configured_feature/pie_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "PieTreeSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pie_tree_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/main/loot_table/blocks/pie_tree_sapling.json",
+          "src/main/resources/assets/main/models/item/pie_tree_sapling.json",
+          "src/main/resources/assets/main/blockstates/pie_tree_sapling.json",
+          "src/main/resources/assets/main/items/pie_tree_sapling.json",
+          "src/main/resources/assets/main/models/block/pie_tree_sapling.json",
+          "src/main/java/net/mcreator/main/block/PieTreeSaplingBlock.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:PieTreeSapling"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "key.main.start_flying": "Start Flying",
+      "item.main.pie_tree_sapling": "Pie Tree Sapling"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/main/init/MainModKeyMappings.java",
+      "src/main/java/net/mcreator/main/init/MainModBlocks.java",
+      "src/main/java/net/mcreator/main/init/MainModItems.java",
+      "src/main/java/net/mcreator/main/init/MainModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/main/MainMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
   },
   "foldersRoot": {
     "name": "~",

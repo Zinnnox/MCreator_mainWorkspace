@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cristian_s_master:block/portal1",
-    "particle": "cristian_s_master:block/portal1"
-  },
-  "render_type": "solid"
-}

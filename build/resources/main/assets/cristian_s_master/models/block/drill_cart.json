@@ -1,9 +1,0 @@
-{
-  "parent": "cristian_s_master:custom/drill_head",
-  "textures": {
-    "all": "cristian_s_master:block/drill_head",
-    "particle": "cristian_s_master:block/drill_head",
-    "drill_head": "cristian_s_master:block/cargo_cart"
-  },
-  "render_type": "solid"
-}

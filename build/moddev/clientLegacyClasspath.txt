@@ -99,4 +99,4 @@
 /home/cristian/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.8/395f1c1f035258511f27bc9b2583d76e4b143f59/asm-util-9.8.jar
 /home/cristian/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.8/dc19ecb3f7889b7860697215cae99c0f9b6f6b4b/asm-9.8.jar
 /home/cristian/.mcreator/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar
-/home/cristian/MCreatorWorkspaces/main/build/moddev/artifacts/neoforge-21.8.31-client-extra-aka-minecraft-resources.jar
+/home/cristian/Documents/mainMCreatorWorkspace/build/moddev/artifacts/neoforge-21.8.31-client-extra-aka-minecraft-resources.jar

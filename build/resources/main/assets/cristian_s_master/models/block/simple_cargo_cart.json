@@ -1,9 +1,0 @@
-{
-  "parent": "cristian_s_master:custom/cargo_cart",
-  "textures": {
-    "all": "cristian_s_master:block/cargo_cart",
-    "particle": "cristian_s_master:block/cargo_cart",
-    "cargo_cart": "cristian_s_master:block/cargo_cart"
-  },
-  "render_type": "solid"
-}
