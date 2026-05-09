@@ -20,9 +20,11 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.main.network.MainModVariables;
 import net.mcreator.main.init.MainModTabs;
 import net.mcreator.main.init.MainModItems;
 import net.mcreator.main.init.MainModBlocks;
+import net.mcreator.main.init.MainModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -51,8 +53,10 @@ public class MainMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 		MainModBlocks.REGISTRY.register(modEventBus);
+		MainModBlockEntities.REGISTRY.register(modEventBus);
 		MainModItems.REGISTRY.register(modEventBus);
 		MainModTabs.REGISTRY.register(modEventBus);
+		MainModVariables.ATTACHMENT_TYPES.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

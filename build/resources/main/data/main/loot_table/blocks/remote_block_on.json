@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "main:blocks/remote_block_on",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "main:remote_block_on"
+        }
+      ]
+    }
+  ]
+}

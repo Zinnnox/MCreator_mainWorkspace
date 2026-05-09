@@ -130,7 +130,7 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.main.start_flying:key.keyboard.m
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.31690140845070425
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

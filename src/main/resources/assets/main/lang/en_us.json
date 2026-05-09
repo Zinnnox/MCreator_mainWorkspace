@@ -1,4 +1,10 @@
 {
   "key.main.start_flying": "Start Flying",
-  "item.main.pie_tree_sapling": "Pie Tree Sapling"
+  "item.main.pie_tree_sapling": "Pie Tree Sapling",
+  "item.main.redstone_control_remote": "Redstone Control Remote",
+  "item.main.ore_detector": "Ore Detector",
+  "item.main.mining_hammer": "Mining Hammer",
+  "item.main.signal_block": "Signal Block",
+  "item.main.remote_block_off": "Remote Block Off",
+  "item.main.remote_block_on": "Remote Block Off"
 }

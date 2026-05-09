@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "main:block/remote_block_on"
+    }
+  }
+}

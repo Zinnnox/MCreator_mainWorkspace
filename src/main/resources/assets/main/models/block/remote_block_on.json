@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "main:block/redstonesignalblockon",
+    "up": "main:block/redstonesignalblockon",
+    "north": "main:block/redstonesignalblockon",
+    "east": "main:block/redstonesignalblockon",
+    "south": "main:block/redstonesignalblockon",
+    "west": "main:block/redstonesignalblockon",
+    "particle": "main:block/redstonesignalblockon"
+  },
+  "render_type": "solid"
+}

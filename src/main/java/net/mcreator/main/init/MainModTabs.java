@@ -22,6 +22,11 @@ public class MainModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MainModBlocks.PIE_TREE_SAPLING.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(MainModItems.REDSTONE_CONTROL_REMOTE.get());
+			tabData.accept(MainModItems.ORE_DETECTOR.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(MainModItems.MINING_HAMMER.get());
 		}
 	}
 }

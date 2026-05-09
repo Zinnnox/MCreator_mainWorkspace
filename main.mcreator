@@ -94,28 +94,263 @@
           "src/main/java/net/mcreator/main/block/PieTreeSaplingBlock.java"
         ]
       }
+    },
+    {
+      "name": "RedstoneControlRemote",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_control_remote",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/main/item/RedstoneControlRemoteItem.java",
+          "src/main/resources/assets/main/models/item/redstone_control_remote.json",
+          "src/main/resources/assets/main/items/redstone_control_remote.json"
+        ]
+      }
+    },
+    {
+      "name": "OreDetectorItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_detector_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/main/procedures/OreDetectorItemInHandTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OreDetector",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_detector",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main/models/item/ore_detector.json",
+          "src/main/resources/assets/main/items/ore_detector.json",
+          "src/main/java/net/mcreator/main/item/OreDetectorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MiningHammerBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_hammer_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/main/procedures/MiningHammerBlockDestroyedWithToolProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MiningHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main/models/item/mining_hammer.json",
+          "src/main/resources/assets/main/items/mining_hammer.json",
+          "src/main/java/net/mcreator/main/item/MiningHammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SignalBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "signal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main/items/signal_block.json",
+          "src/main/resources/data/main/loot_table/blocks/signal_block.json",
+          "src/main/resources/assets/main/models/item/signal_block.json",
+          "src/main/resources/assets/main/models/block/signal_block.json",
+          "src/main/java/net/mcreator/main/block/entity/SignalBlockBlockEntity.java",
+          "src/main/resources/assets/main/blockstates/signal_block.json",
+          "src/main/java/net/mcreator/main/block/SignalBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RemoteBlockOff",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_block_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/main/block/RemoteBlockOffBlock.java",
+          "src/main/resources/assets/main/models/block/remote_block_off.json",
+          "src/main/resources/assets/main/models/item/remote_block_off.json",
+          "src/main/resources/assets/main/items/remote_block_off.json",
+          "src/main/resources/assets/main/blockstates/remote_block_off.json",
+          "src/main/resources/data/main/loot_table/blocks/remote_block_off.json",
+          "src/main/java/net/mcreator/main/block/entity/RemoteBlockOffBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RemoteBlockOn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_block_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main/models/item/remote_block_on.json",
+          "src/main/resources/assets/main/items/remote_block_on.json",
+          "src/main/resources/assets/main/blockstates/remote_block_on.json",
+          "src/main/resources/data/main/loot_table/blocks/remote_block_on.json",
+          "src/main/resources/assets/main/models/block/remote_block_on.json",
+          "src/main/java/net/mcreator/main/block/RemoteBlockOnBlock.java",
+          "src/main/java/net/mcreator/main/block/entity/RemoteBlockOnBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneControlRemoteRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_control_remote_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/main/procedures/RedstoneControlRemoteRightclickedProcedure.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "timecounter",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:saplings": [
       "~CUSTOM:PieTreeSapling"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:OreDetector"
+    ],
+    "ITEMS:main:ore_detector_repair_items": [
+      "~Blocks.REDSTONE_BLOCK",
+      "~Items.REDSTONE"
+    ],
+    "BLOCKS:minecraft:ores": [
+      "Blocks.COAL_ORE",
+      "Blocks.IRON_ORE",
+      "Blocks.REDSTONE_ORE",
+      "Blocks.GOLD_ORE",
+      "Blocks.LAPIS_ORE",
+      "Blocks.DIAMOND_ORE",
+      "Blocks.EMERALD_ORE",
+      "Blocks.COPPER_ORE",
+      "Blocks.DEEPSLATE_COAL_ORE",
+      "Blocks.DEEPSLATE_IRON_ORE",
+      "Blocks.DEEPSLATE_REDSTONE_ORE",
+      "Blocks.DEEPSLATE_GOLD_ORE",
+      "Blocks.DEEPSLATE_LAPIS_ORE",
+      "Blocks.DEEPSLATE_DIAMOND_ORE",
+      "Blocks.DEEPSLATE_EMERALD_ORE",
+      "Blocks.DEEPSLATE_COPPER_ORE",
+      "Blocks.QUARTZ_ORE",
+      "Blocks.NETHER_GOLD_ORE"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:MiningHammer"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "key.main.start_flying": "Start Flying",
-      "item.main.pie_tree_sapling": "Pie Tree Sapling"
+      "item.main.pie_tree_sapling": "Pie Tree Sapling",
+      "item.main.redstone_control_remote": "Redstone Control Remote",
+      "item.main.ore_detector": "Ore Detector",
+      "item.main.mining_hammer": "Mining Hammer",
+      "item.main.signal_block": "Signal Block",
+      "item.main.remote_block_off": "Remote Block Off",
+      "item.main.remote_block_on": "Remote Block Off"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/main/init/MainModKeyMappings.java",
       "src/main/java/net/mcreator/main/init/MainModBlocks.java",
+      "src/main/java/net/mcreator/main/init/MainModBlockEntities.java",
       "src/main/java/net/mcreator/main/init/MainModItems.java",
       "src/main/java/net/mcreator/main/init/MainModTabs.java",
+      "src/main/java/net/mcreator/main/network/MainModVariables.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/main/MainMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
